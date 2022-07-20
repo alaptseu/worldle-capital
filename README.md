@@ -1,6 +1,6 @@
 # WOR**L**DLE CAPITA**L**
 
-Play this geographical wordle here: 
+Play this geographical wordle capital here: https://worldle-capital.onrender.com/
 
 ## Contributions & PR
 
