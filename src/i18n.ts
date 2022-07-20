@@ -5,7 +5,7 @@ import { initReactI18next } from "react-i18next";
 export const translations = {
   en: {
     translation: {
-      placeholder: "Country, territory...",
+      placeholder: "Capital or main city...",
       guess: "Guess",
       share: "Share",
       showOnGoogleMaps: "👀 on Google Maps",
