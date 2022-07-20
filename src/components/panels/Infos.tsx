@@ -24,7 +24,7 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
         </div>
         <div>
           After each guess, you will have the distance, the direction and the
-          proximity from your guess to the target country.
+          proximity from your guess to the target country capital.
         </div>
       </div>
       <div className="space-y-3 text-justify border-b-2 border-gray-200 pb-3 mb-3">
@@ -34,7 +34,7 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
             rowCount={1}
             guesses={[
               {
-                name: "Chile",
+                name: "Santiago",
                 direction: "NE",
                 distance: 13_557_000,
               },
@@ -42,7 +42,8 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
             settingsData={settingsData}
           />
           <div className="my-2">
-            Your guess <span className="uppercase font-bold">Chile</span> is{" "}
+            Your guess{" "}
+            <span className="uppercase font-bold">Chile/Santiago</span> is{" "}
             {formatDistance(13557000, settingsData.distanceUnit)} away from the
             target country, the target country is in the North-East direction
             and you have a only 32% of proximity because it&apos;s quite far
@@ -54,7 +55,7 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
             rowCount={1}
             guesses={[
               {
-                name: "Finland",
+                name: "Helsinki",
                 direction: "SE",
                 distance: 3_206_000,
               },
@@ -63,9 +64,9 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
           />
           <div className="my-2">
             Your second guess{" "}
-            <span className="uppercase font-bold">Finland</span> is getting
-            closer! {formatDistance(3206000, settingsData.distanceUnit)} away,
-            South-East direction and 84%!
+            <span className="uppercase font-bold">Finland/Helsinki</span> is
+            getting closer! {formatDistance(3206000, settingsData.distanceUnit)}{" "}
+            away, South-East direction and 84%!
           </div>
         </div>
         <div>
@@ -73,7 +74,7 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
             rowCount={1}
             guesses={[
               {
-                name: "Lebanon",
+                name: "Beirut",
                 direction: "N",
                 distance: 0,
               },
@@ -81,7 +82,8 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
             settingsData={settingsData}
           />
           <div className="my-2">
-            Next guess, <span className="uppercase font-bold">Lebanon</span>,
+            Next guess,{" "}
+            <span className="uppercase font-bold">Lebanon/Beirut</span>,
             it&apos;s the country to guess! Congrats!{" "}
             <Twemoji text="🎉" options={{ className: "inline-block" }} />
           </div>
@@ -110,20 +112,20 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
         inspired by{" "}
         <a
           className="underline"
-          href="https://www.powerlanguage.co.uk/wordle/"
+          href="https://worldle.teuteuf.fr/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Wordle
+          worldle
         </a>{" "}
         created by{" "}
         <a
           className="underline"
-          href="https://twitter.com/powerlanguish"
+          href="https://twitter.com/teuteuf"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Josh Wardle (@powerlanguish)
+          @teuteuf
         </a>
         .
       </div>
@@ -136,7 +138,7 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
             target="_blank"
             rel="noopener noreferrer"
           >
-            @teuteuf
+            @alaptseu
           </a>{" "}
           - (
           <a
