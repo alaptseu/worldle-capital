@@ -33,6 +33,7 @@ export function InfosNl({ isOpen, close, settingsData }: InfosProps) {
             guesses={[
               {
                 name: "Chili",
+                capital: "Santiago",
                 direction: "NE",
                 distance: 13_557_000,
               },
@@ -52,6 +53,7 @@ export function InfosNl({ isOpen, close, settingsData }: InfosProps) {
             guesses={[
               {
                 name: "Finland",
+                capital: "Helsinki",
                 direction: "SE",
                 distance: 3_206_000,
               },
@@ -70,6 +72,7 @@ export function InfosNl({ isOpen, close, settingsData }: InfosProps) {
             guesses={[
               {
                 name: "Libanon",
+                capital: "Beirut",
                 direction: "N",
                 distance: 0,
               },

@@ -2,6 +2,7 @@ import { Direction } from "./geography";
 
 export interface Guess {
   name: string;
+  capital: string;
   distance: number;
   direction: Direction;
 }

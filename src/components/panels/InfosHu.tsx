@@ -37,6 +37,7 @@ export function InfosHu({ isOpen, close, settingsData }: InfosProps) {
             guesses={[
               {
                 name: "Chile",
+                capital: "Santiago",
                 direction: "NE",
                 distance: 13_557_000,
               },
@@ -56,6 +57,7 @@ export function InfosHu({ isOpen, close, settingsData }: InfosProps) {
             guesses={[
               {
                 name: "Finnország",
+                capital: "Helsinki",
                 direction: "SE",
                 distance: 3_206_000,
               },
@@ -76,6 +78,7 @@ export function InfosHu({ isOpen, close, settingsData }: InfosProps) {
             guesses={[
               {
                 name: "Libanon",
+                capital: "Beirut",
                 direction: "N",
                 distance: 0,
               },

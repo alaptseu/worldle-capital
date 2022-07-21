@@ -79,7 +79,8 @@ export function Game({ settingsData, updateSettings }: GameProps) {
       }
 
       const newGuess = {
-        name: currentGuess,
+        name: guessedCountry.name,
+        capital: currentGuess,
         distance: geolib.getDistance(guessedCountry, country),
         direction: geolib.getCompassDirection(
           guessedCountry,

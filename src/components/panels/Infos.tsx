@@ -34,7 +34,8 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
             rowCount={1}
             guesses={[
               {
-                name: "Santiago",
+                name: "Chile",
+                capital: "Santiago",
                 direction: "NE",
                 distance: 13_557_000,
               },
@@ -55,7 +56,8 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
             rowCount={1}
             guesses={[
               {
-                name: "Helsinki",
+                name: "Finland",
+                capital: "Helsinki",
                 direction: "SE",
                 distance: 3_206_000,
               },
@@ -74,7 +76,8 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
             rowCount={1}
             guesses={[
               {
-                name: "Beirut",
+                name: "Lebanon",
+                capital: "Beirut",
                 direction: "N",
                 distance: 0,
               },
