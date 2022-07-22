@@ -212,14 +212,14 @@ function getCountry(dayString: string) {
 
       if (pickingDate >= noRepeatStartDate) {
         while (isARepeat(pickedCountry, lastPickDates, pickingDate)) {
-          countryIndex = (countryIndex + 1) % countrySelection.length;
+          countryIndex = (countryIndex + 2) % countrySelection.length;
           pickedCountry = countrySelection[countryIndex];
         }
       }
     }
 
     if (areas[pickedCountry.code] < smallCountryLimit) {
-      smallCountryCooldown = 9;
+      smallCountryCooldown = 5;
     }
 
     lastPickDates[pickedCountry.code] = pickingDate;
